@@ -37,17 +37,37 @@
 
 2. [Интерфейсы](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/ef4d7736-8a5c-419a-86ee-c8861fb6fbaa)
 
-3. `Заполните здесь этапы выполнения, если требуется ....`
+3. [Состоянии службы ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/ae28b564-df0b-4975-b3d6-c1a4799e5f41)
+
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
 6. 
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+Скрипт проверки порта и фала
+check_port() {
+    nc -z -w3 192.168.100.9 80
+    return $?
+}
+
+check_index() {
+    if [ -f "/var/www/html/index.nginx-debian.html" ]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+check_port
+port_status=$?
+check_index
+index_status=$?
+
+if [ $port_status -ne 0 ] || [ $index_status -ne 0 ]; then
+    exit 1
+else
+    exit 0
+fi
 ```
 
 `При необходимости прикрепитe сюда скриншоты
