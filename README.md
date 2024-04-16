@@ -23,7 +23,7 @@
 
 ### Задание 1
 
-1. ![Схема_Скриншот](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/601a7eb0-ba42-4f68-8103-8d05e3d98b20)
+1. ![Название скриншота](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/601a7eb0-ba42-4f68-8103-8d05e3d98b20)
 
 
 ```
