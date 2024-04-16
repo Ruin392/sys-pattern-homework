@@ -31,7 +31,8 @@
 
 `Приведите ответ в свободной форме........`
 
-1. [Настройка_Мастер_Слейв + vip](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/a423b0c8-5141-4d11-9b99-6ebd2268c43f)
+1. [Настройка_Мастер_Слейв + vip](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/f422fe62-6977-45c5-b7b6-6232dbf4345f)
+
 
 2. [Интерфейсы](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/ef4d7736-8a5c-419a-86ee-c8861fb6fbaa)
 
