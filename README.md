@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 1 «Disaster recovery и Keepalived» - Аюпов Е
+# Домашнее задание к занятию 2 «Кластеризация и балансировка нагрузки» - Аюпов Е
 
 
 ### Инструкция по выполнению домашнего задания
@@ -23,7 +23,7 @@
 
 ### Задание 1
 
-1. [Скриншот](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/601a7eb0-ba42-4f68-8103-8d05e3d98b20)
+1. [логи о том что идет выбор разных нод](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/0955d63c-d816-4eaa-ad45-da61065a950d)
 
 ---
 
@@ -31,44 +31,11 @@
 
 `Приведите ответ в свободной форме........`
 
-1. [Настройка_Мастер_Слейв + vip](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/0cc42340-4e4f-4244-ae6f-3a14dd7827ce)
+1. 
 
 
 
-2. [Интерфейсы](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/ef4d7736-8a5c-419a-86ee-c8861fb6fbaa)
 
-3. [Состоянии службы ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/ae28b564-df0b-4975-b3d6-c1a4799e5f41)
-
-4. [Итоговая конфигурация](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/8c010633-0d21-43a5-8bf6-085828691753)
-
-
-
-```
-Скрипт проверки порта и фала
-check_port() {
-    nc -z -w3 192.168.100.9 80
-    return $?
-}
-
-check_index() {
-    if [ -f "/var/www/html/index.nginx-debian.html" ]; then
-        return 0
-    else
-        return 1
-    fi
-}
-
-check_port
-port_status=$?
-check_index
-index_status=$?
-
-if [ $port_status -ne 0 ] || [ $index_status -ne 0 ]; then
-    exit 1
-else
-    exit 0
-fi
-```
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота](ссылка на скриншот)`
