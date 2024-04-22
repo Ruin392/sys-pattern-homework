@@ -36,7 +36,8 @@
 
 `Приведите ответ в свободной форме........`
 
-1. [Кронтаб ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/124d4984-45dd-4c42-8d13-eaff6daba6b2)
+1. [Кронтаб ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/a62a16a7-8054-417d-9364-555c0e983d3d)
+
 
 
 
