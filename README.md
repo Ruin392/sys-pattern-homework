@@ -23,7 +23,8 @@
 
 ### Задание 1
 
-1. [Выполнение команды ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/12b50272-6f8e-4137-bb7a-e725497aa8dc)
+1. [Выполнение команды ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/d3301aa1-0ef5-47c1-92b0-9a96004f6e60)
+
 
 
 
@@ -35,7 +36,8 @@
 
 `Приведите ответ в свободной форме........`
 
-1. [Кронтаб ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/82458049-1387-4749-b412-5dfaa6b2c31e)
+1. [Кронтаб ](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/124d4984-45dd-4c42-8d13-eaff6daba6b2)
+
 
 
 
