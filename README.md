@@ -35,5 +35,8 @@
 ![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/fc86c52e-f8b4-4a7a-b842-af903cae6bdd)
 ![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/d7a4df45-c5bf-45d7-8b30-fdd52a4c0dc8)
 
+### Задание 2. 
+
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/6dfd49e8-0b26-47a9-b227-173a9ae3568e)
 
 
