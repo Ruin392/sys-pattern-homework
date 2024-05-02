@@ -33,6 +33,10 @@
 ### Задание 3. Logstash
 ![Access Log](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/39509fb4-8e69-42b1-bcdf-bd494e83d7a5)
 
+### Задание 4. Filebeat
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/b33e0a45-eaf3-414f-a24a-37c44eb7ebca)
+
+
  
 
 
