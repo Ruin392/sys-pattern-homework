@@ -27,8 +27,9 @@
 
 
 
-### Задание 2. Memcached
- ![Status Memcached](img/stat.png)
+### Задание 2. Kibana
+ [Kibana](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/9f45e304-5d21-4ba0-9802-fcf27a66473d)
+
  
 
 ### Задание 3. Удаление по TTL в Memcached
