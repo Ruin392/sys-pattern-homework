@@ -36,7 +36,7 @@
 
 ### Задание 3. Удаление по TTL в Memcached
 
-![add key](img_1.png)
+![add key](add_key.png)
 
 ### Задание 4. Запись данных в Redis
 
