@@ -30,6 +30,9 @@
 ### Задание 2. Kibana
 ![Kibana](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/9f45e304-5d21-4ba0-9802-fcf27a66473d)
 
+### Задание 2. Kibana
+![Access Log](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/39509fb4-8e69-42b1-bcdf-bd494e83d7a5)
+
  
 
 
