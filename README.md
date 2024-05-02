@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «ELK» - Аюпов Е
+# Домашнее задание к занятию «Базы данных» - Аюпов Е
 
 
 ### Инструкция по выполнению домашнего задания
@@ -21,22 +21,7 @@
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
 
-### Задание 1. Elasticsearch
-
-![Wrong_name and correct name](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/1116ef6f-c0a1-4095-8aaa-30ea41ac433a)
-
-
-
-### Задание 2. Kibana
-![Kibana](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/9f45e304-5d21-4ba0-9802-fcf27a66473d)
-
-### Задание 3. Logstash
-![Access Log](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/39509fb4-8e69-42b1-bcdf-bd494e83d7a5)
-
-### Задание 4. Filebeat
-![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/b33e0a45-eaf3-414f-a24a-37c44eb7ebca)
-
-
- 
-
+### Задание 1. 
+Проще изобразить в диаграмме
+![database](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/20fcce99-fb8b-4723-9a40-26dd5e01a1f5)
 
