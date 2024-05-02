@@ -31,7 +31,7 @@
 
 
 ### Задание 2. Memcached
- ![Status Memcached](img.png)
+ ![Status Memcached](img/stat.png)
  
 
 ### Задание 3. Удаление по TTL в Memcached
