@@ -22,6 +22,18 @@
 
 
 ### Задание 1. 
-Проще изобразить в диаграмме
-![database](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/20fcce99-fb8b-4723-9a40-26dd5e01a1f5)
+
+Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/4032dcf0-7a01-44a5-b53d-d30eee53e401)
+
+
+1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/f77cb597-fc1d-4f46-92a1-f0ae093f4f94)
+
+1.7. Восстановите дамп в базу данных.
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/2decb7ae-2658-4f95-a54e-afecb4deee22)
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/fc86c52e-f8b4-4a7a-b842-af903cae6bdd)
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/d7a4df45-c5bf-45d7-8b30-fdd52a4c0dc8)
+
+
 
