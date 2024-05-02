@@ -28,14 +28,8 @@
 
 
 ### Задание 2. Kibana
- [Kibana](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/9f45e304-5d21-4ba0-9802-fcf27a66473d)
+![Kibana](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/9f45e304-5d21-4ba0-9802-fcf27a66473d)
 
  
 
-### Задание 3. Удаление по TTL в Memcached
 
-![add key](img/add_key.png)
-
-### Задание 4. Запись данных в Redis
-
-![Redis status and add && get ](img/redis.png)
