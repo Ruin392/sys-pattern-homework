@@ -5,11 +5,18 @@
 
 
 
+
 ---
 
 ### Задание №1 
+Установка + Шифрование
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/6ff8267b-8872-493e-afcb-39aa6e68fcaa)
 
+Шифрованный
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/38f0cef1-f8ba-47c0-bd04-cab8ec61e9da)
+Рассшифрованный
 
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/2af2cc62-d17e-4c90-b74b-d9e053215933)
 
 
 ---
