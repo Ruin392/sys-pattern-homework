@@ -1,42 +1,49 @@
 
-# Домашнее задание по лекции "Работа с данными (DDL/DML)" - Аюпов Е
+# Домашнее задание по лекции 12.3 «SQL. Часть 1»
 
+#### [Задание №1](#задание-1-текст-задания)
+#### [Задание №2](#задание-2-текст-задания)
+#### [Задание №3](#задание-3-текст-задания)
+#### [Задание №4](#задание-4-текст-задания)
 
-### Инструкция по выполнению домашнего задания
+---
 
-1. Сделайте fork [репозитория c шаблоном решения](https://github.com/netology-code/sys-pattern-homework) к себе в Github и переименуйте его по названию или номеру занятия, например, https://github.com/имя-вашего-репозитория/gitlab-hw или https://github.com/имя-вашего-репозитория/8-03-hw).
-2. Выполните клонирование этого репозитория к себе на ПК с помощью команды `git clone`.
-3. Выполните домашнее задание и заполните у себя локально этот файл README.md:
-   - впишите вверху название занятия и ваши фамилию и имя;
-   - в каждом задании добавьте решение в требуемом виде: текст/код/скриншоты/ссылка;
-   - для корректного добавления скриншотов воспользуйтесь инструкцией [«Как вставить скриншот в шаблон с решением»](https://github.com/netology-code/sys-pattern-homework/blob/main/screen-instruction.md);
-   - при оформлении используйте возможности языка разметки md. Коротко об этом можно посмотреть в [инструкции по MarkDown](https://github.com/netology-code/sys-pattern-homework/blob/main/md-instruction.md).
-4. После завершения работы над домашним заданием сделайте коммит (`git commit -m "comment"`) и отправьте его на Github (`git push origin`).
-5. Для проверки домашнего задания преподавателем в личном кабинете прикрепите и отправьте ссылку на решение в виде md-файла в вашем Github.
-6. Любые вопросы задавайте в чате учебной группы и/или в разделе «Вопросы по заданию» в личном кабинете.
+### Задание №1 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-1))
 
-Желаем успехов в выполнении домашнего задания.
-   
-### Дополнительные материалы, которые могут быть полезны для выполнения задания
+```sql
+select district
+from address
+where district like "K%a" and  district not like "% %"
+```
 
-1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
+---
 
+### Задание №2 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-2))
 
-### Задание 1. 
+```sql
+select amount, date(payment_date)
+from payment
+where day(payment_date) between 15 and 18
+and  month(payment_date) = 6
+and year(payment_date) = 2005
+and amount >= 10.00
+```
+---
 
-Выполните запрос на получение списка пользователей в базе данных. (скриншот)
-![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/4032dcf0-7a01-44a5-b53d-d30eee53e401)
+### Задание №3 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-3))
+```sql
+select *
+from rental
+order by rental_date desc
+limit 5
+```
+---
 
-
-1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
-![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/f77cb597-fc1d-4f46-92a1-f0ae093f4f94)
-
-1.7. Восстановите дамп в базу данных.
-![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/2decb7ae-2658-4f95-a54e-afecb4deee22)
-![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/fc86c52e-f8b4-4a7a-b842-af903cae6bdd)
-![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/d7a4df45-c5bf-45d7-8b30-fdd52a4c0dc8)
-
-### Задание 2. 
-
-![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/6dfd49e8-0b26-47a9-b227-173a9ae3568e)
-
+### Задание №4 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-4))
+```sql
+select concat(first_name, " ", last_name) as origin,
+       lower(concat(replace(lower(first_name), "ll", "pp"), " ", last_name)) as modify
+from customer
+where lower(first_name) in ('kelly', 'willie')
+```
+---
