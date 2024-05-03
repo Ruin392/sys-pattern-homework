@@ -21,9 +21,9 @@
 
 ![](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/d474a1d9-28c1-4e4c-8189-3784fd15476c)
 
-![](assets/images/hw-55/hw-55-2-2.png)
-
 ---
+![image](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/3aac968a-b052-4451-869c-04f139856555)
+
 
 
 
