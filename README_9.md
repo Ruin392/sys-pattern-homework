@@ -13,6 +13,8 @@
 
 2) 21/tcp open  ftp     vsftpd 2.3.4 = [vsftpd 2.3.4 - Backdoor Command Execution](https://www.exploit-db.com/exploits/49757)
 
+3) 5432/tcp open  postgresql PostgreSQL DB = [PostgreSQL 8.2/8.3/8.4 - UDF for Command Execution](https://www.exploit-db.com/exploits/7855)
+
 
 ---
 
