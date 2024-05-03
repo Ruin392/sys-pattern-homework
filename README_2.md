@@ -1,14 +1,10 @@
 
-# Домашнее задание по лекции 12.3 «SQL. Часть 1»
+# Домашнее задание по лекции 12.3 «SQL. Часть 1» Аюпов Е
 
-#### [Задание №1](#задание-1-текст-задания)
-#### [Задание №2](#задание-2-текст-задания)
-#### [Задание №3](#задание-3-текст-задания)
-#### [Задание №4](#задание-4-текст-задания)
 
 ---
 
-### Задание №1 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-1))
+### Задание №1 
 
 ```sql
 select district
@@ -18,7 +14,7 @@ where district like "K%a" and  district not like "% %"
 
 ---
 
-### Задание №2 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-2))
+### Задание №2
 
 ```sql
 select amount, date(payment_date)
@@ -30,7 +26,7 @@ and amount >= 10.00
 ```
 ---
 
-### Задание №3 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-3))
+### Задание №3
 ```sql
 select *
 from rental
@@ -39,7 +35,7 @@ limit 5
 ```
 ---
 
-### Задание №4 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-03.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-4))
+### Задание №4
 ```sql
 select concat(first_name, " ", last_name) as origin,
        lower(concat(replace(lower(first_name), "ll", "pp"), " ", last_name)) as modify
