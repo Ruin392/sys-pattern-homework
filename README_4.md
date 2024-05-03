@@ -3,7 +3,7 @@
 
 ---
 
-### Задание №1 ([Текст Задания](https://github.com/netology-code/sdb-homeworks/blob/main/12-05.md#%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-1))
+### Задание №1
 
 С округлением
 ```sql
