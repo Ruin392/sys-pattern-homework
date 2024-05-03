@@ -36,5 +36,8 @@ SAN-кластер:
 ---
 
 
+### Задание №2
 
 
+![1_2](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/ccca3190-ae64-4135-95aa-0b14b8c2c48b)
+![1_1](https://github.com/Ruin392/sys-pattern-homework/assets/53511812/d8985d92-dee1-4169-b8d7-dbb263c78adc)
